@@ -1,0 +1,134 @@
+body 
+{
+
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+box-sizing: border-box;
+/* background:-webkit-linear-gradient(left,black,white);
+background:-moz-linear-gradient(left,black,white);
+background:-ie-linear-gradient(left,black,white);
+background:-o-linear-gradient(left,black,white);
+background:linear-gradient(right,black,white);     */
+/* css3 properties */
+/* background:-webkit-linear-gradient(top,black,white);
+background:-moz-linear-gradient(top,black,white);
+background:-ie-linear-gradient(top,black,white);
+background:-o-linear-gradient(top,black,white);
+background:linear-gradient(bottom,black,white);   */
+
+
+background:-webkit-linear-gradient(left,black 50%,white 50%);
+background:-moz-linear-gradient(left,black 50%,white 50%);
+background:-ie-linear-gradient(left,black 50%,white 50%);
+background:-o-linear-gradient(left,black 50%,white 50%);
+background:linear-gradient(right,black 50%,white 50%);  
+background-size: cover;
+width: 100% !important;
+height: 600px !important;
+}
+
+#content 
+{
+width: 60%;
+height: auto;
+margin: auto;
+padding: 15px;
+margin-top: 10%;
+background: rgba(0,0,255,9);    
+display: flex;
+flex-direction: row;
+}
+.box1 
+{
+ width: 250px;
+ height: 250px;
+ background-color: red;
+ margin: 5px;
+ padding: 5px;   
+}
+.box2 
+{
+ width: 250px;
+ height: 250px;
+ background-color: yellow;
+ margin: 5px;
+ padding: 5px;   
+}
+
+.box3 
+{
+ width: 250px;
+ height: 250px;
+ background-color: aqua;
+ margin: 5px;
+ padding: 5px;   
+}
+.box1:hover,.box2:hover,.box3:hover 
+{
+    width: 240px;
+    height: 240px;   
+    transition: ease-in 0.5s all;   
+    border-radius: 50%;
+    transform: rotate(-360deg);
+}
+
+
+#content1 
+{
+ text-align: center;
+ font-size: 40px;
+ color: blue; 
+ line-height: 1px;  
+ animation: infinite 2s flash;
+}
+#content1 hr 
+{
+    border: solid 3px;
+    width: 20%;
+}
+
+#about-us
+{
+ width: 50%;
+ height: auto;
+ background-color: white;
+ margin: auto;
+ padding: 20px;
+ margin-top: 2%;   
+}
+
+.about 
+{
+width: 100%;
+height: auto;
+padding: 15px;
+box-shadow: 2px 4px 2px 4px;
+animation: fadeInTopLeft 2s alternate;
+    
+}
+.about h1 
+{
+font-size: 40px;
+line-height: 1;    
+animation: fadeIn 2s infinite;
+}
+.about hr 
+{
+ width: 25%;
+ height: auto;   
+}
+
+.about p 
+{
+text-align: justify;    
+}
+
+.about img 
+{
+width: 250px;
+height: 250px;
+float: left;
+padding: 10px;
+
+}

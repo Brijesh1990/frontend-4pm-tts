@@ -1,0 +1,36 @@
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+box-sizing: border-box;
+background: url('../images/bck.jpg') no-repeat;
+background-size: cover;
+background-position: center;    
+}
+
+#content
+{
+ width: 90%;
+ height: auto;
+ margin: auto;
+ padding: 20px;
+ margin-top: 5%;   
+ display: grid;
+ grid-template-columns: auto auto;
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 
+{
+width: 60%;
+height: auto;
+margin: 40px;
+padding: 20px;
+background-color: black;
+color: white;
+border: solid 8px white;
+}

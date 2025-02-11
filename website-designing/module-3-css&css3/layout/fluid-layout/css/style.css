@@ -1,0 +1,133 @@
+@import url('font-face.css');
+*
+{
+margin: 0;
+padding: 0;
+font-family: dejaVuSansRegular !important;    
+}
+
+#smart-header 
+{
+width: 100%;
+max-width: 100%;
+height: auto;
+background-color: #013364;
+padding: 0px 0px;
+position: relative;
+}
+.header
+{
+width:20%;
+height: auto;
+margin: 0;
+
+}
+.header img 
+{
+width: 12%;
+height: auto;
+position: absolute;
+margin-left: 20%;
+margin-top: 2% !important;
+}
+.banner 
+{
+width: 80%;
+height: auto;
+margin: auto;
+display: flex;
+flex-direction: row;    
+}
+.banner-text
+{
+width: 60%;
+height: auto;
+padding: 45px 0px;
+color: white;
+margin-top: 15%;
+margin-left: 10%;
+
+}
+#banner-text-btn1 
+{
+width: 20%;
+height: auto;
+padding: 8px;
+background-color: #01baf3;
+border: 0;
+color: white;
+margin-top: 5%;
+}
+#banner-text-btn2 
+{
+
+width: 20%;
+height: auto;
+padding: 8px;
+background-color:transparent;
+border: solid 1px white;
+color: white;
+margin-top: 5%;    
+}
+.banner-img
+{
+width: 40%;
+height: auto;
+}
+.banner-img img 
+{
+width: 80%;
+height: auto;
+margin: auto;
+margin-top: 2% !important;   
+}
+
+#smart-content 
+{
+width: 80%;
+max-width: 80%;
+height: auto;  
+margin: auto;
+display: flex;
+flex-direction: row; 
+}
+.best-award,
+.best-app,
+.best-profit
+{
+ width: 33%;
+ height: auto;
+ margin: auto;
+ padding: 15px;
+
+}
+.based-app,
+.best-award,
+.loved-app
+{
+width: 33%;
+height: auto;
+margin: 8px;
+box-shadow: 0px 0px 0px 0px;
+text-align: center;
+margin-top: 8%;    
+}
+.fa-android
+{
+font-size: 25px !important;
+background-color: #013364;
+border-radius: 50%;
+padding: 35px 40px;
+color: white;   
+
+}
+.text-style
+{
+font-family: dejaVuSansBold !important;    
+} 
+#smart-footer 
+{
+width: 100%;
+max-width: 100%;
+height: auto;
+}

@@ -1,0 +1,135 @@
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+box-sizing: border-box;    
+background-color: lightgray;
+}
+
+.content 
+{
+width: 80%;
+height: auto;
+margin: auto;
+margin-top: 3%;
+padding: 25px 0px;
+display: flex;
+flex-direction: row;    
+}
+.box1,
+.box2 
+{
+    background-color: white;   
+    padding: 25px;
+    margin: 8px;
+}
+
+/* media query : media query is a part of css3
+                 media query is used for create a responsive webpage
+                 Media query applied for different-2 breakpoint for webpage broswers
+
+
+    Types of media query ...
+    
+      1) all	    Suitable for all media devices.
+      2) print	    Used for printers.
+      3) screen	    Targeted at computer screens, tablets, smartphones, etc.
+      4) speech	    Designed for screen readers that read the content aloud.
+   
+*/
+
+/* mobile break points */
+@media only screen and (max-width:580px)
+{
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+box-sizing: border-box;    
+background-color: brown;
+}   
+.content 
+{
+width: 80%;
+height: auto;
+margin: auto;
+margin-top: 3%;
+padding: 25px 0px;
+display: block;    
+}
+.box1,
+.box2 
+{
+    background-color: white;   
+    padding: 25px;
+    margin: 8px;
+}
+
+}
+/* tablet device break points */
+
+@media only screen and (max-width:767px)
+{
+ 
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+box-sizing: border-box;    
+background-color: brown;
+}   
+.content 
+{
+width: 80%;
+height: auto;
+margin: auto;
+margin-top: 3%;
+padding: 25px 0px;
+display: block;    
+}
+.box1,
+.box2 
+{
+    background-color: white;   
+    padding: 25px;
+    margin: 8px;
+}
+
+
+}
+
+/* small device or laptop */
+@media only screen and (max-width:1024px)
+{
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+box-sizing: border-box;    
+background-color: lightgray;
+}   
+.content 
+{
+width: 80%;
+height: auto;
+margin: auto;
+margin-top: 3%;
+padding: 25px 0px;
+display: grid;
+grid-template-columns: auto auto;    
+}
+.box1,
+.box2 
+{
+    width: 80%;
+    height: auto;
+    background-color: white;   
+    padding: 25px;
+    margin: 20px;
+}
+
+}

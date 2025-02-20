@@ -1,0 +1,118 @@
+body 
+{
+background:-webkit-linear-gradient(left,white, #3879D6) ;   
+background:-webkit-linear-gradient(left,white, #3879D6) ;   
+background:-webkit-linear-gradient(left,white, #3879D6) ;   
+background:-webkit-linear-gradient(left,white, #3879D6) ;   
+background:linear-gradient(to right,white, #3879D6) ;   
+}
+
+#header
+{
+width: 100%;
+height: auto;
+background-color: black;
+padding: 5px;
+display: flex;
+flex-direction: row;   
+}
+.logo
+{
+width: 30%;
+height: auto;   
+}
+.logo-heading
+{
+font-size: large;
+font-family: cursive;    
+color: white;
+}
+
+#login
+{
+width: 30%;
+height: auto;
+margin: auto;
+background-color: antiquewhite;
+padding: 5px;
+margin-top: 10%;
+border:  solid 1px coral;   
+}
+#login h4 
+{
+text-align: center;
+border: solid 1px coral;    
+margin: 0;
+padding: 0;
+}
+#login form 
+{
+width: 60%;
+height: auto;
+margin: auto;    
+padding: 25px;
+}
+
+@media screen  and (min-width:320px) and (max-width:580px)
+{
+body 
+{
+background:-webkit-linear-gradient(left,white, #3879D6) ;   
+background:-webkit-linear-gradient(left,white, #3879D6) ;   
+background:-webkit-linear-gradient(left,white, #3879D6) ;   
+background:-webkit-linear-gradient(left,white, #3879D6) ;   
+background:linear-gradient(to right,white, #3879D6) ;   
+}
+
+#header
+{
+width: 100%;
+height: auto;
+background-color: black;
+padding: 5px;
+display: flex;
+flex-direction: row;   
+}
+.logo
+{
+width: 30%;
+height: auto;   
+}
+.logo img 
+{
+width: 80%;
+height: auto;    
+}
+.logo-heading
+{
+font-size: small;
+font-family: cursive;    
+color: white;
+font-weight: 100;
+}
+
+#login
+{
+width: 100%;
+height: auto;
+margin: auto;
+background-color: antiquewhite;
+padding: 5px;
+margin-top: 10%;
+border:  solid 1px coral;   
+}
+#login h4 
+{
+text-align: center;
+border: solid 1px coral;    
+margin: 0;
+padding: 0;
+}
+#login form 
+{
+width: 70%;
+height: auto;
+margin: auto;    
+padding: 25px;
+}   
+}

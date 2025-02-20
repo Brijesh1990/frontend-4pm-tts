@@ -1,0 +1,95 @@
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+box-sizing: border-box;    
+}
+.app 
+{
+width: 60%;
+height: auto;
+margin: auto;    
+}
+
+/* @media screen and  (min-width:600px)
+{
+
+    .app 
+    {
+      width: 100%;
+      height: auto;
+      margin: auto;
+      font-size: 30px !important;  
+    }
+}
+
+@media screen and  (max-width:600px)
+{
+
+    .app 
+    {
+      width: 100%;
+      height: auto;
+      margin: auto;
+      font-size: 80px !important;  
+    }
+} */
+
+/* mobile */
+@media screen and  (min-width:320px) and (max-width:480px)
+{
+    .app 
+    {
+      width: 100%;
+      height: auto;
+      margin: 0 !important;
+      font-size: 14px !important;  
+      padding:25px !important;
+    }
+}
+
+/* tablet */
+@media screen and  (min-width:481px) and (max-width:768px)
+{
+    .app 
+    {
+      width: 100%;
+      height: auto;
+      margin: auto;
+      font-size: 16px !important;  
+      padding:15px !important;
+    }
+}
+
+
+/* smal device desktop */
+@media screen and  (min-width:769px) and (max-width:1024px)
+{
+    .app 
+    {
+      width: 100%;
+      height: auto;
+      margin: auto;
+      font-size: 22px !important;  
+      padding:10px !important;
+    }
+}
+
+
+/* max device or large device */
+@media screen and  (min-width:1025px) and (max-width:1440px)
+{
+    .app 
+    {
+      width: 100%;
+      height: auto;
+      margin: auto;
+      font-size: 28px !important;  
+      padding:5px !important;
+    }
+}
+
+
+
+

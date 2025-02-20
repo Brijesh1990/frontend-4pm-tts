@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>NestWell app provides</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <!-- NestWell header app -->
+    <section id="nestwell-header">
+    <div class="logo">
+        <img src="images/logo/logo.png" alt="logo" />
+    </div>
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">product</a></li>
+            <li><a href="#">quality</a></li>
+            <li><a href="#">video</a></li>
+            <li><a href="#">contactus</a></li>
+        </ul>
+    </div>
+    </section>
+     <!-- NestWell banner app -->
+     <section id="nestwell-banner">
+     <div id="slide">
+        <img src="images/banner/banner1.jpg" />
+        <img src="images/banner/banner3.jpg" />
+        <img src="images/banner/banner4.jpg" />
+        <img src="images/banner/banner5.jpg" />
+     </div>   
+     </section>
+
+     <!-- nestwell content  -->
+     <section id="nestwell-content">
+
+        <!-- welcome to nestwell products -->
+         <div class="nestwell-products">
+            <div class="nestwell-product-banner">
+                <p><span class="txt-regular"> Welcome to</span> <br>
+                <span class="txt-bold">Nestwell Products</span><br>
+                <span>Nestwell Products serves its clients with the sole vision to satisfy what they want and reach to such quality of work that they feel it’s even more than the expectations!</span></p>
+                
+            </div>
+            <div class="nestwell-product-grid">
+                <div class="product-grid1">
+                    <img src="images/products/c1.jpg" />
+                </div>
+                <div class="product-grid1">
+                    
+                    <img src="images/products/c13.jpg" />
+                </div>
+                
+            </div>
+         </div>
+
+     </section>
+
+     <!-- jquery plugins -->
+      <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+      <!-- jquery slider cycle plugins -->
+       <script src="js/jquery.cycle.min.js"></script>
+       <script>
+        $(document).ready(function(){
+
+            // $("#slide").cycle("fade");
+            // $("#slide").cycle("zoom");
+            // $("#slide").cycle("shuffle");
+            $("#slide").cycle("fade");
+        })
+       </script>
+</body>
+</html>

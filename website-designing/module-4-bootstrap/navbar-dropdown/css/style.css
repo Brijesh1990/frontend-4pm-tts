@@ -1,0 +1,17 @@
+.nav ul li 
+{
+display: inline-block;
+padding: 5px 40px;
+list-style-type: none;
+}
+.nav a 
+{
+text-decoration: none;
+color: white;
+text-transform: uppercase;
+font-size: 20px;
+}
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+}

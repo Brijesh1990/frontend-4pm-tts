@@ -1,0 +1,85 @@
+@import url('font-style.css');
+:root 
+{
+--bg-lightgray:#FFFFFF;
+--bg-primary:#1E5DBC;
+--bg-gray:#2B4448;
+--text-lightgray:#FFFFFF;
+--text-primary:#1E5DBC;
+--text-gray:#2B4448;
+}
+body 
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+overflow-x: hidden;    
+}
+#automotive-header
+{
+width: 100%;
+height: 600px;
+margin: 0px;
+padding: 0px;
+background: url('../images/banner.jpg') no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+.navbar
+{
+width: 100%;
+height: auto;
+margin: 0px;
+background-color: rgba(255,255,255, 0.6);  
+position: sticky;
+top: 0 !important;  
+}
+.navbar-links
+{
+margin-left: 15%;    
+}
+.navbar-links li 
+{
+display: inline-block;
+padding: 0px 25px;    
+list-style-type: none;
+}
+.navbar-brand img
+{
+width: 50%;
+margin-left: 20%;    
+}
+.navbar-links a 
+{
+color: var(--text-gray);
+text-decoration: none;
+list-style-type: none;
+font-size: 15px;
+text-transform: uppercase;    
+font-family: day-one;
+font-weight: 100 !important;
+}
+/* mobile */
+@media only screen and (min-width:320px) and (max-width:580px)
+{
+
+}
+
+/* tablet */
+@media only screen and (min-width:581px) and (max-width:767px)
+{
+
+}
+
+/* laptop & smal device */
+@media only screen and (min-width:768px) and (max-width:1024px)
+{
+
+}
+
+/* large desktop and device */
+@media only screen and (min-width:1025px) and (max-width:1440px)
+{
+
+}

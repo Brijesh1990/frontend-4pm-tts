@@ -18,12 +18,25 @@ overflow-x: hidden;
 #automotive-header
 {
 width: 100%;
-height: 600px;
+height: auto;
 margin: 0px;
 padding: 0px;
 background: url('../images/banner.jpg') no-repeat;
 background-size: cover;
 background-position: center;
+
+}
+
+#automotive-header-page
+{
+width: 100%;
+height: auto;
+margin: 0px;
+padding: 0px;
+background: url('../images/banner.jpg') no-repeat;
+background-size: 100% 100%;
+background-position: center;
+background-attachment: fixed;
 
 }
 .navbar
@@ -37,18 +50,19 @@ top: 0 !important;
 }
 .navbar-links
 {
-margin-left: 15%;    
+margin-left: 5%;    
 }
 .navbar-links li 
 {
 display: inline-block;
-padding: 0px 25px;    
+padding: 0px 20px;    
 list-style-type: none;
 }
-.navbar-brand img
+.navbar-brand
 {
-width: 50%;
-margin-left: 20%;    
+width: 20%;
+height: 12vh;
+margin-left: 2%;    
 }
 .navbar-links a 
 {
@@ -60,9 +74,103 @@ text-transform: uppercase;
 font-family: day-one;
 font-weight: 100 !important;
 }
+
+.automptive-banner-txt
+{
+width: 50%;
+height: auto;
+margin: 15px;
+padding: 20px;
+color: white;    
+}
+.automptive-banner-txt h1 
+{
+font-family: day-one;   
+font-size: 60px;
+}
 /* mobile */
 @media only screen and (min-width:320px) and (max-width:580px)
 {
+#automotive-header
+{
+width: 100%;
+height: auto;
+margin: 0px;
+padding: 0px;
+background: url('../images/banner.jpg') no-repeat;
+background-size: 100% 100%;
+background-position: center;
+background-attachment: fixed;
+
+}
+#automotive-header-page
+{
+width: 100%;
+height: auto;
+margin: 0px;
+padding: 0px;
+background: url('../images/banner.jpg') no-repeat;
+background-size: 100% 100%;
+background-position: center;
+background-attachment: fixed;
+
+}
+.navbar
+{
+width: 100%;
+height: auto;
+margin: 0px;
+background-color: rgba(255,255,255, 0.6);  
+position: sticky;
+top: 0 !important;  
+}
+.navbar-links
+{
+margin-left: 0 !important;    
+}
+.navbar-links li
+{
+display: block;
+padding: 10px 5px;    
+list-style-type: none;
+text-decoration: underline;
+
+}
+.navbar-brand
+{
+width: 30%;
+height: 12vh;
+margin-left: 0%;    
+}
+
+.automptive-banner-txt
+{
+width: 100%;
+height: auto;
+margin: 15px;
+padding: 20px;
+color: white;    
+}
+.automptive-banner-txt h1 
+{
+font-family: day-one;   
+font-size: 40px;
+}
+.navbar-links a 
+{
+color: var(--text-gray);
+text-decoration: none;
+list-style-type: none;
+font-size: 14px;
+text-transform: uppercase;    
+font-family: day-one;
+font-weight: 100 !important;
+}
+.breadcrumb
+{
+width: 70% !important;
+height: auto !important;    
+}
 
 }
 

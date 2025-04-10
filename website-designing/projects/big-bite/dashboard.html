@@ -26,8 +26,14 @@
 </div>
 </section>
 <!-- navigations section start here -->
-<section class="bite-navbar mt-2">
-    <nav class="nav navbar navbar-expand-md bg-white">
+<section class="bite-navbar p-2 mt-2">
+    <nav class="nav navbar navbar-expand-md bg-white m-0 p-0">
+       <a href="" class="navbar-brand p-3"><img src="images/logo.png" class="img-fluid"></a>
+        <!-- button of toggle-->
+         <button type="button" class="navbar-toggler btn btn-sm border border-0 bg-white float-end" data-bs-toggle="collapse" data-bs-target="#btClck">
+            <span class="bi bi-grid fs-1 text-dark"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="btClck">
         <ul class="navbar-links">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -35,7 +41,20 @@
             <li><a href="#">Our Resturents</a></li>
             <li><a href="#">Account</a></li>
             <li><a href="#">Contact us</a></li>
+            <li class="search-input"><a href="#"> <input type="text" placeholder="search any products here..." class="form-control p-2 mt-3" /></a></li>
+            <li class="cart mt-2">
+                <button type="button" class="btn btn-primary position-relative">
+                    <span class="bi bi-cart"></span>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      99+
+                      <span class="visually-hidden">unread messages</span>
+                    </span>
+                  </button>
+                  <span class="ms-4 fs-1 bi bi-geo-alt"></span>
+            </li>
+            
         </ul>
+        </div>
     </nav>
 </section>
 <!-- banner section start here -->
@@ -46,22 +65,22 @@
  <section class="bite-content mt-5">
  <!-- accordians buttons -->
   <div class="row w-75 mx-auto">
-    <div class="col-md-3 accordians">
+    <div class="col-3 accordians">
         <button type="button" class="rounded-5 btn btn-danger text-white w-75 mx-auto">Fruits</button>
     </div>
-    <div class="col-md-3 accordians">
-        <button type="button" class="rounded-5 btn btn-secondary text-white w-75 mx-auto">Fruits</button>
+    <div class="col-3 accordians">
+        <button type="button" class="rounded-5 btn btn-secondary text-white w-75 mx-auto ms-3">Fruits</button>
     </div>
-    <div class="col-md-3 accordians">
-        <button type="button" class="rounded-5 btn btn-secondary text-white w-75 mx-auto">Fruits</button>
+    <div class="col-3 accordians">
+        <button type="button" class="rounded-5 btn btn-secondary text-white w-75 mx-auto ms-3">Fruits</button>
     </div>
-    <div class="col-md-3 accordians">
-        <button type="button" class="rounded-5 btn btn-secondary text-white w-75 mx-auto">Fruits</button>
+    <div class="col-3 accordians">
+        <button type="button" class="rounded-5 btn btn-secondary text-white w-75 mx-auto ms-3">Fruits</button>
     </div>
   </div>
   <!-- add products -->
-   <div class="row">
-    <div class="col-md-3 mt-3">
+   <div class="row prod-parent">
+    <div class="col-md-3 mt-3 prod-app">
         <div class="card">
             <div class="card-body">
                 <img src="https://png.pngtree.com/png-clipart/20231017/original/pngtree-burger-food-png-free-download-png-image_13329458.png" class="img-fluid"/>
@@ -73,7 +92,7 @@
         </div>
     </div>
 
-    <div class="col-md-3 mt-3">
+    <div class="col-md-3 mt-3 prod-app">
         <div class="card">
             <div class="card-body">
                 <img src="https://png.pngtree.com/png-clipart/20231017/original/pngtree-burger-food-png-free-download-png-image_13329458.png" class="img-fluid"/>
@@ -85,7 +104,7 @@
         </div>
     </div>
 
-    <div class="col-md-3 mt-3">
+    <div class="col-md-3 mt-3 prod-app">
         <div class="card">
             <div class="card-body">
                 <img src="https://png.pngtree.com/png-clipart/20231017/original/pngtree-burger-food-png-free-download-png-image_13329458.png" class="img-fluid"/>
@@ -96,19 +115,7 @@
             </div>
         </div>
     </div>
-    <div class="col-md-3 mt-3">
-        <div class="card">
-            <div class="card-body">
-                <img src="https://png.pngtree.com/png-clipart/20231017/original/pngtree-burger-food-png-free-download-png-image_13329458.png" class="img-fluid"/>
-                <p class="fs-3">Cheege Burger</p>
-                <p class="fs-5">Rs.250-/ <del>350-/</del></p>
-                <p><button type="button" class="border border-0">1002</button>
-                    <button type="button" class="border border-0 float-end"><span class="bi bi-cart"></span></button></p>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-md-3 mt-3">
+    <div class="col-md-3 mt-3 prod-app">
         <div class="card">
             <div class="card-body">
                 <img src="https://png.pngtree.com/png-clipart/20231017/original/pngtree-burger-food-png-free-download-png-image_13329458.png" class="img-fluid"/>
@@ -120,18 +127,7 @@
         </div>
     </div>
 
-    <div class="col-md-3 mt-3">
-        <div class="card">
-            <div class="card-body">
-                <img src="https://png.pngtree.com/png-clipart/20231017/original/pngtree-burger-food-png-free-download-png-image_13329458.png" class="img-fluid"/>
-                <p class="fs-3">Cheege Burger</p>
-                <p class="fs-5">Rs.250-/ <del>350-/</del></p>
-                <p><button type="button" class="border border-0">1002</button>
-                    <button type="button" class="border border-0 float-end"><span class="bi bi-cart"></span></button></p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-3 mt-3">
+    <div class="col-md-3 mt-3 prod-app">
         <div class="card">
             <div class="card-body">
                 <img src="https://png.pngtree.com/png-clipart/20231017/original/pngtree-burger-food-png-free-download-png-image_13329458.png" class="img-fluid"/>
@@ -143,7 +139,18 @@
         </div>
     </div>
 
-    <div class="col-md-3 mt-3">
+    <div class="col-md-3 mt-3 prod-app">
+        <div class="card">
+            <div class="card-body">
+                <img src="https://png.pngtree.com/png-clipart/20231017/original/pngtree-burger-food-png-free-download-png-image_13329458.png" class="img-fluid"/>
+                <p class="fs-3">Cheege Burger</p>
+                <p class="fs-5">Rs.250-/ <del>350-/</del></p>
+                <p><button type="button" class="border border-0">1002</button>
+                    <button type="button" class="border border-0 float-end"><span class="bi bi-cart"></span></button></p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mt-3 prod-app">
         <div class="card">
             <div class="card-body">
                 <img src="https://png.pngtree.com/png-clipart/20231017/original/pngtree-burger-food-png-free-download-png-image_13329458.png" class="img-fluid"/>
@@ -155,7 +162,7 @@
         </div>
     </div>
 
-    <div class="col-md-3 mt-3">
+    <div class="col-md-3 mt-3 prod-app">
         <div class="card">
             <div class="card-body">
                 <img src="https://png.pngtree.com/png-clipart/20231017/original/pngtree-burger-food-png-free-download-png-image_13329458.png" class="img-fluid"/>
@@ -167,7 +174,7 @@
         </div>
     </div>
 
-    <div class="col-md-3 mt-3">
+    <div class="col-md-3 mt-3 prod-app">
         <div class="card">
             <div class="card-body">
                 <img src="https://png.pngtree.com/png-clipart/20231017/original/pngtree-burger-food-png-free-download-png-image_13329458.png" class="img-fluid"/>
@@ -179,7 +186,7 @@
         </div>
     </div>
 
-    <div class="col-md-3 mt-3">
+    <div class="col-md-3 mt-3 prod-app">
         <div class="card">
             <div class="card-body">
                 <img src="https://png.pngtree.com/png-clipart/20231017/original/pngtree-burger-food-png-free-download-png-image_13329458.png" class="img-fluid"/>
@@ -191,7 +198,7 @@
         </div>
     </div>
 
-    <div class="col-md-3 mt-3">
+    <div class="col-md-3 mt-3 prod-app">
         <div class="card">
             <div class="card-body">
                 <img src="https://png.pngtree.com/png-clipart/20231017/original/pngtree-burger-food-png-free-download-png-image_13329458.png" class="img-fluid"/>
@@ -203,7 +210,7 @@
         </div>
     </div>
 
-    <div class="col-md-3 mt-3">
+    <div class="col-md-3 mt-3 prod-app">
         <div class="card">
             <div class="card-body">
                 <img src="https://png.pngtree.com/png-clipart/20231017/original/pngtree-burger-food-png-free-download-png-image_13329458.png" class="img-fluid"/>
@@ -214,7 +221,8 @@
             </div>
         </div>
     </div>
-    <div class="col-md-3 mt-3">
+
+    <div class="col-md-3 mt-3 prod-app">
         <div class="card">
             <div class="card-body">
                 <img src="https://png.pngtree.com/png-clipart/20231017/original/pngtree-burger-food-png-free-download-png-image_13329458.png" class="img-fluid"/>
@@ -225,7 +233,7 @@
             </div>
         </div>
     </div>
-    <div class="col-md-3 mt-3">
+    <div class="col-md-3 mt-3 prod-app">
         <div class="card">
             <div class="card-body">
                 <img src="https://png.pngtree.com/png-clipart/20231017/original/pngtree-burger-food-png-free-download-png-image_13329458.png" class="img-fluid"/>
@@ -236,7 +244,18 @@
             </div>
         </div>
     </div>
-    <div class="col-md-3 mt-3">
+    <div class="col-md-3 mt-3 prod-app">
+        <div class="card">
+            <div class="card-body">
+                <img src="https://png.pngtree.com/png-clipart/20231017/original/pngtree-burger-food-png-free-download-png-image_13329458.png" class="img-fluid"/>
+                <p class="fs-3">Cheege Burger</p>
+                <p class="fs-5">Rs.250-/ <del>350-/</del></p>
+                <p><button type="button" class="border border-0">1002</button>
+                    <button type="button" class="border border-0 float-end"><span class="bi bi-cart"></span></button></p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mt-3 prod-app">
         <div class="card">
             <div class="card-body">
                 <img src="https://png.pngtree.com/png-clipart/20231017/original/pngtree-burger-food-png-free-download-png-image_13329458.png" class="img-fluid"/>

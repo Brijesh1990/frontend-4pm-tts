@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>Page Title</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+<script src='main.js'></script>
+<style>
+#btn 
+{
+width: 20%;
+height: auto;
+margin: auto;
+background-color: red;
+color: white;
+padding: 10px;   
+border: none;
+}
+</style>
+</head>
+<body>
+<script>
+function ad()
+{
+var a=parseInt(prompt('Enter a values :'));
+var b=parseInt(prompt('Enter b values :'));    
+var c=a+b;
+alert('The additions of numbers is :'+c);
+}  
+function subs()
+{
+var a=parseInt(prompt('Enter a values :'));
+var b=parseInt(prompt('Enter b values :'));    
+var c=a-b;
+alert('The substractions of numbers is :'+c);
+}  
+function mult()
+{
+var a=parseInt(prompt('Enter a values :'));
+var b=parseInt(prompt('Enter b values :'));    
+var c=a*b;
+alert('The multiplications of numbers is :'+c);
+}  
+function dv()
+{
+var a=parseInt(prompt('Enter a values :'));
+var b=parseInt(prompt('Enter b values :'));    
+var c=a/b;
+alert('The divisions of numbers is :'+c);
+}    
+</script>    
+<button type="button" onclick="ad()" id="btn">Additions</button>
+<button type="button" onclick="subs()" id="btn">Substractions</button>
+<button type="button" onclick="mult()" id="btn">Multiplication</button>
+<button type="button" onclick="dv()" id="btn">Divisions</button>
+</body>
+</html>

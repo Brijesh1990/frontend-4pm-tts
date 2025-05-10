@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Header Example</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            position: sticky;
+            top: 0; /* Sticks the header to the top of the viewport */
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            z-index: 1000; /* Ensures the header stays on top */
+        }
+
+        section {
+            padding: 20px;
+            height: 2000px; /* Adds scrollable content */
+            background: linear-gradient(to bottom, #f9f9f9, #e0e0e0);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Sticky Header
+    </header>
+    <section>
+        <p>Scroll down to see the sticky header in action. The header will remain at the top of the viewport as you scroll through the content.</p>
+    </section>
+</body>
+</html>

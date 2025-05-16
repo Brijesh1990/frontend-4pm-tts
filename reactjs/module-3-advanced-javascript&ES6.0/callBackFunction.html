@@ -1,0 +1,17 @@
+<script>
+//    what is callback function
+//     callback function is used to call in another function i.e called callback function 
+//     examples :  employee.forEach(display);
+//     console.log(employee.forEach(display)); // it will return undefined because forEach() method doesn't return any value.
+
+
+    let employee=["kishan","rahul","rohit","jay","bhumika"];
+    console.log(employee);
+
+    employee.forEach(display);
+
+    function display(item)
+    {
+        console.log(item);
+    }
+</script>

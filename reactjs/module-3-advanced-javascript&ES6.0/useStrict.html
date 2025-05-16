@@ -1,0 +1,28 @@
+<script>
+    //what is use strict in javascript
+    // This code will throw a TypeError because 'use strict' is enabled
+    'use strict';
+    let x = 10;
+    x = 'Hello'; // This will throw a TypeError because we're trying to change the type of a variable
+    console.log(x);
+    // This code will throw a ReferenceError because 'y' is not defined
+    let y;
+    console.log(y);
+    // This code will throw a SyntaxError because there's a missing semicolon
+    console.log('Hello');
+    // This code will throw a TypeError because 'z' is not defined
+    console.log(z);
+
+    // Example of a function that uses 'use strict'
+    function strictFunction() {
+        'use strict';
+        console.log(this); // This will throw a TypeError because 'this' is undefined in strict mode
+        let x = 10;
+        x = 'Hello'; // This will throw a TypeError because we're trying to change the type of a variable
+    }
+    strictFunction();
+
+
+
+
+</script>

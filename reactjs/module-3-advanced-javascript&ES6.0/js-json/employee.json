@@ -1,0 +1,27 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "Brijesh",
+      "age": 34,
+      "department": "IT",
+      "salaray": 85900
+    },
+
+    {
+      "id": 2,
+      "name": "Rajesh",
+      "age": 35,
+      "department": "CSE",
+      "salaray": 8590
+    },
+
+    {
+      "id": 3,
+      "name": "Jay",
+      "age": 24,
+      "department": "IT",
+      "salaray": 8590
+    }
+  ]
+}

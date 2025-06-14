@@ -1,0 +1,2 @@
+what is NPM ? 
+  stands for node package manager 

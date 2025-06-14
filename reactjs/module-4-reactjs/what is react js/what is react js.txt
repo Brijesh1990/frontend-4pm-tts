@@ -1,0 +1,64 @@
+what is react js ? 
+  React js is an libraries of javascript 
+  React js is used to create a single page applications 
+  React js is product of facebook 
+  React js is best for create any web applications 
+  React js fast load data on web broswers 
+  React js 10x times to fast load data on broswers
+  React js is used components 
+  React js components are re-usables 
+  React js is used to provides seo friendly web applications 
+  React js provides jsx (javascript xml) its means access html elements inside of react js.  
+  React js provides fragments to access multiple html elements 
+  examples : <></>
+  React js used props and state 
+  React js fast render data on web broswers
+  React js best for creating a website UI. 
+  React js provides many libraries and components 
+  
+  React js advantages ...
+
+    a) rect js create SPA(single page application)
+    b) react js create for best UI for any website 
+    c) react js fast load data on web broswers
+    d) react js use user friendly
+    e) rect js also seo friendly
+    f) react js is re-usables components
+    g) react js provides api calling 
+    h) react is provides virtual DOM 
+    i) react js have a large community
+    j) react js provides flexibility
+    k) react js provides cross-plateform compatibility 
+    l) react js easily integrated with other technology    
+
+
+
+How to install react js app .....
+
+a) using create-react-app  via npm 
+
+    1) download node js 
+    2) install node js 
+    3) check node js version  node -v
+    4) check npm(node package manager) npm -v   
+    5) check npx(node package executables)
+    6) install react app 
+           npm create-react-app appname 
+
+
+
+b) using create-react-app  via npx 
+
+    1) download node js 
+    2) install node js 
+    3) check node js version  node -v
+    4) check npm(node package manager) npm -v   
+    5) check npx(node package executables)
+    6) install react app 
+           npx create-react-app appname 
+    7) cd appname 
+    8) npm start 
+    9) http://localhost:3000/       
+
+    
+

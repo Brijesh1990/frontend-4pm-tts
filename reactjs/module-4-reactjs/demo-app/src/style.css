@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  background-color: lightgray;
+}
+.app {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  padding: 25px;
+  background-color: white;
+  margin-top: 5%;
+  animation: 2s fadeInTopLeft alternate;
+  display: flex;
+  flex-wrap: wrap;
+}
+.anim {
+  animation: 2s fadeIn infinite;
+}
+
+#btn {
+  width: 350px;
+  height: auto;
+  margin: 5px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+
+.clc {
+  width: 40%;
+  height: auto;
+  margin-top: 10%;
+}
+.clcimg {
+  width: 45%;
+  height: auto;
+}
+.clcimg img {
+  width: 100%;
+  height: auto;
+}

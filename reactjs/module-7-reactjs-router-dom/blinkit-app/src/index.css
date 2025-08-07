@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* Food delivery Web app user panel css*/
+#page-banner
+{
+width: 100%;
+height: 100px;
+background: url('https://static.vecteezy.com/system/resources/thumbnails/019/033/105/small/abstract-background-with-paper-cut-shapes-banner-design-illustration-vector.jpg') no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+    
+}
+#page-banner h1 
+{
+position: absolute;
+font-size: 45px;
+margin-left: 10%;
+margin-top: 0%;    
+}
+/* Food delivery Web app admin panel css */
+.sidebar-links
+{
+width: 100%;
+height: auto;  
+}
+.sidebar-links li 
+{
+display: block;
+text-decoration: none;
+list-style-type: none;  
+padding: 10px 1px;
+}
+.sidebar-links a 
+{
+color: white;
+font-size: 18px;
+
+}

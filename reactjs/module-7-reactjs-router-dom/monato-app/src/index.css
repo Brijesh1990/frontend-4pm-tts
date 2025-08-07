@@ -1,0 +1,17 @@
+@import "tailwindcss";
+/* user panel */
+.btn
+{
+  transform: scale(1);  
+  /* transform: skewX(-5deg); */
+  transform: skewY(-4deg);
+}
+.header 
+{
+width: 49%;
+height: auto;
+top: 0;
+position: sticky;  
+z-index: 10 !important;
+background-color: white;
+}

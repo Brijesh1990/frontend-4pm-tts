@@ -1,0 +1,36 @@
+{
+  "contact-us": [
+    {
+      "id": "806f",
+      "name": "rohit",
+      "email": "roohitsitapara@gmail.com",
+      "phone": "9998003879",
+      "subject": "general",
+      "message": "good evening"
+    },
+    {
+      "id": "4473",
+      "name": "vipul",
+      "email": "vipul@gmail.com",
+      "phone": "8544651221",
+      "subject": "support",
+      "message": "hi give me support"
+    },
+    {
+      "id": "6a3a",
+      "name": "varun",
+      "email": "varun007@gmail.com",
+      "phone": "854512021",
+      "subject": "feedback",
+      "message": "give me feedback"
+    },
+    {
+      "id": "9b8c",
+      "name": "kumar",
+      "email": "kumar@gmail.com",
+      "phone": "94121212121",
+      "subject": "support",
+      "message": "hi"
+    }
+  ]
+}

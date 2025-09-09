@@ -1,0 +1,18 @@
+what is form-handeling ? 
+  form handeling is used to handel form data via inputs 
+  form handeling is used to get inputs data 
+
+  Types of form handeling in react js ..
+  a) controlled components 
+       controlled components is a small peace of file that is save as .js or .jsx but its data will be handel via useState() and stored input data via useState there we used controlled components
+
+       examples : 
+        import React,{useState} from 'react'
+
+  b) uncontrolled components 
+
+  uncontrolled components is a small peace of file that is save as .js or .jsx but its data will be handel via DOM(document object model) and stored input data via useRef() there we used uncontrolled components
+
+       examples : 
+       
+        import React,{useRef} from 'react'

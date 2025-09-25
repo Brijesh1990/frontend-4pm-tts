@@ -1,0 +1,49 @@
+{
+  "add-students": [
+    {
+      "id": "d9e1",
+      "name": "rohit",
+      "course": "frontend",
+      "phone": "942122121"
+    },
+    {
+      "id": "2dcc",
+      "name": "vipul",
+      "course": "Mertnstack developer",
+      "phone": "812121215"
+    },
+    {
+      "id": "781b",
+      "name": "varun",
+      "course": "Mertnstack developer",
+      "phone": "655415321"
+    },
+    {
+      "id": "66d0",
+      "name": "Brijesh",
+      "course": "data science",
+      "phone": "655454544"
+    }
+  ],
+  "add-attendance": [
+    {
+      "id": "f32f",
+      "studentname": "rohit",
+      "attdate": "2025-09-23",
+      "status": "Present"
+    },
+    {
+      "studentname": "varun",
+      "attdate": "2025-09-25",
+      "status": "Late",
+      "id": "a1a6"
+    },
+    {
+      "studentname": "rohit",
+      "attdate": "2025-09-25",
+      "status": "Present",
+      "id": "67c9"
+    }
+  ],
+  "feedback-us": []
+}
